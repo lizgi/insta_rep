@@ -1,10 +1,10 @@
 # insta_replica
 
-### 1st Dec 2021
+### 3rd Dec 2021
 
 ## Author  
   
-~~Elizabeth Gikonyo~~
+~~ Elizabeth Gikonyo ~~
   
 # Description  
 This is an insta_replica that allows users to register to the app,,upload own pictures,,.See their profile with their profile,follow others and lastly like a picture and leave a comment on the posts.
