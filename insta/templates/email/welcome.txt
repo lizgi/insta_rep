@@ -1,3 +1,3 @@
 Hello {{name}}
 
-Welcome to the Insta clone .Join to have fun
+Welcome to the Insta_rep.Come let's share and make merry.
