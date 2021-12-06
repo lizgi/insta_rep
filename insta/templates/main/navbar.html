@@ -1,6 +1,6 @@
-
-<nav class="navbar navbar-expand-md navbar-light ">
-  <div class="container-fluid">
+<div class="container-fluid">
+ <nav class="navbar navbar-expand-md navbar-light ">
+  
   <div style="margin-left: 5%;">
   <a href="{% url 'index' %}" class="navbar-brand mr-3">
     <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="">
@@ -11,8 +11,8 @@
   <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="navbar-nav" style="margin-left: 30%;>
-    <form class="mb-0 h1 ml-auto mr-auto" id="searchform" action="{% url 'search' %}" >
+  <div class="navbar-nav" style="margin-left: 30%;">
+    <form class="mb-0 h1 ml-auto mr-auto id="searchform action="{% url 'search' %}" >
         <input autocomplete="off"class="form-control d-none d-md-block" placeholder="Search" name="search_user" style="border: 1px solid #dbdbdb; background-color: #fafafa; height: 27.5px;width: 12.5rem ;border-radius: 3.5px;padding-left: 25px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">
     </form>
   </div>
@@ -44,6 +44,5 @@
    
     </div>
   </div>
+ </nav>
 </div>
-</nav>
-
