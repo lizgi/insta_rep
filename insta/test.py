@@ -64,3 +64,4 @@ class TTestComments(TestCase):
     self.comments = Comment(comment = 'beauty',image = self.image,user = self.test_user)
 
 
+ 

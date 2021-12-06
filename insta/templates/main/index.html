@@ -151,16 +151,16 @@
       </div>      
     </div>
     </div>
-  </div>
+  
   {% for image in images %}
   <div class="modal fade" id="{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content" id="text">
         <div class="modal-header">
-          <a href="#" style="color: red;">Report inappropriate</a>
+          <a href="#" style="color: crimson;">Report inappropriate</a>
         </div>
         <div class="modal-header">
-            <a href="#" style="color: red;">unfollow</a>
+            <a href="#" style="color:crimson;">unfollow</a>
         </div>
         <div class="modal-header">
             <a href="{% url 'allcomments' image_id=image.id %}">Go to post</a>
@@ -201,5 +201,5 @@
       </div>
     </div>
   </div>
-
+</div>
 {% endblock %}
