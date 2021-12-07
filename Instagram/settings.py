@@ -19,13 +19,13 @@ import cloudinary
 import cloudinary.uploader
 import cloudinary.api
 
-cloudinary.config(
-    cloud_name="galeria2",
-    api_key="839797526961269",
-    api_secret="8-bWpm3YGTC4Rahj3RBnJgcE8Dk",
-    secure=True
-)
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME':config('CL_NAME'),
+    'API_KEY': config('CL_KEY'),
+    'API_SECRET':config('CL_SECRET'),
+     'secure':True
+}
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
