@@ -10,6 +10,8 @@
 This is an insta_replica that allows users to register to the app,,upload own pictures,,.See their profile with their profile,follow others and lastly like a picture and leave a comment on the posts.
   
 ##  Live Link  
+
+https://replicinstagram.herokuapp.com/
  
   
 
